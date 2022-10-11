@@ -77,45 +77,4 @@ const countdown = () => {
 startBtn.addEventListener('click', countdown);
 
 
-input.style.width = '170px';
-input.style.fontSize = '18px';
-input.style.padding = '10px';
-input.style.borderRadius = '5px';
-
-startBtn.style.width = '80px';
-startBtn.style.fontSize = '18px';
-startBtn.style.padding = '5px';
-startBtn.style.marginLeft= '10px';
-startBtn.style.borderRadius = '5px';
-
-timer.style.display = 'flex';
-timer.style.marginTop = '20px';
-
-const timerFields = Array.from(document.querySelectorAll('div.field'));
-
-for (const timerField of timerFields) {
-  timerField.style.display = 'flex';
-  timerField.style.flexDirection = 'column';
-  timerField.style.textAlign = 'center';
-  timerField.style.paddingRight = '20px';
-}
-
-const values = Array.from(document.querySelectorAll('span.value'));
-
-for (const value of values) {
-  value.style.fontSize = '32px';
-  value.style.lineHeight = '1.6';
-  value.style.display = 'block';
-  value.style.fontFamily = 'Ubuntu';
-}
-
-const labels = Array.from(document.querySelectorAll('.label'));
-
-for (const label of labels) {
-  label.style.display = 'block';
-  label.style.textAlign = 'center';
-  label.style.fontSize = '20px';
-  label.style.fontFamily = 'Ubuntu';
-}
-
 
